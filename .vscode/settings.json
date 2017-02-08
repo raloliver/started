@@ -1,0 +1,38 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Controls the font family.
+    "editor.fontFamily": "Fira Code, Hack, 'Courier New', monospace",
+
+    // Controls the font size.
+    "editor.fontSize": 16,
+
+    // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "afterDelay",
+
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when "files.autoSave" is set to "afterDelay"
+    "files.autoSaveDelay": 10000,
+
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": true,
+
+    // Editor Font Zooming 
+    "editor.mouseWheelZoom": true,
+
+    // ESLint configuration
+    "eslint.enable": true,
+    "eslint.options": {
+                    "rules": {
+                        "eqeqeq": [2, "allow-null"]
+                    }
+                },
+    "window.zoomLevel": 0,
+
+    // Customize which terminal to run on Windows.
+    "terminal.external.windowsExec": "C:\\Program Files\\GIT\\git-bash.exe",
+
+    // The path of the shell that the terminal uses on Windows.
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+
+    // Controls if lines should wrap.
+    "editor.wordWrap": true,
+}
